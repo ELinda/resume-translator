@@ -1,0 +1,308 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Linda Cai",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "linda.cai@zoho.com",
+    "phone": "",
+    "url": "",
+    "summary": "Seeking data-engineering position",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "lindagcai",
+        "url": "https://www.linkedin.com/in/lindagcai/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CognitOps",
+      "position": "Software Engineer",
+      "startDate": "2021-06-30",
+      "endDate": "2022-04-30",
+      "highlights": [],
+      "summary": "Backend Scala engineer for warehouse management tool featuring analytics and reporting.\n* Updated Scala code in Kafka consumers/producers, reporting transformations, etc.\n* Maintained API endpoints\n* Updated data models to add features or simplify logic\n* Gathered requirements and created design documents\n* Added features to custom SBT plugin\nUsed Google Cloud Platform (GCP) to monitor Kubernetes deployments\nManaged configurations (in JavaScript) for customizing user interface per customer\nIntroduced a small amount of infrastructure-as-code in Terraform (for backups), and modified Terraform files (for micro-service architecture).\nAssisted in customer integrations, involving complex queries on a variety of databases (Oracle, Microsoft SQL Server, etc). Constructed some queries and reviewed queries written by other developers and consultants, for performance and adherence to data model.",
+      "url": "https://www.linkedin.com/company/cognitops/",
+      "location": "United States"
+    },
+    {
+      "name": "Capital One",
+      "position": "Software Engineer",
+      "startDate": "2019-04-30",
+      "endDate": "2021-06-30",
+      "highlights": [],
+      "summary": "Work on various data cataloging projects, and a streaming data transformation platform.\nReduced repetition by creating reusable modules/dependencies (or reusing existing ones where possible).\nOptimized Scala Spark and PySpark applications, including regular expressions, for large scale data.\nAutomated deployments and management of MapReduce clusters, using Jenkins, Terraform, and the AWS SDK.\nCreated restrictive IAM and bucket policies. Integrated with Vault service and ensured secrets were kept there.\nCreated cloud event driven monitoring function which integrated with Slack.\nForwarded logs to be easily searched in Splunk.\nTechnologies used: Scala, Python, Groovy, Java, Terraform, Spark, Docker, Akka, Datadog, New Relic.\nAWS services used: EMR, Lambda, Cloudwatch",
+      "url": "https://www.linkedin.com/company/capital-one/",
+      "location": "San Francisco Bay Area"
+    },
+    {
+      "name": "The Walt Disney Studios",
+      "position": "Senior Software Engineer",
+      "startDate": "2017-10-31",
+      "endDate": "2018-11-30",
+      "highlights": [],
+      "summary": "Maintained and updated streaming data application for tracking theatre package info for set of Tableau reports\n  *  Used Scala, Java, OpenShift, Postgres, Flyway, Confluent Kafka, Kafka Connect, KStreams\n  *  Added monitoring and alerting for all five components, and performed full documentation/knowledge transfer\n  *. Contributed to Avro schema, Tableau report extractor, and KStreams changes, working with Theatrical team\n  *  Investigated and documented issues with ingestion from RabbitMQ, such as connection failures and missing data\n  *  Reviewed all major queries, optimizing as necessary\n\nConducted Dataiku and Databricks POCs, and helped other teams migrate Python, SQL, and R workflows to DataBricks\n  *  Set up Dataiku testing endpoint for internal Disney Music Group users, investigated most features, and provided a demo\n  *  Attended and served in training and on-boarding sessions, and served as point of contact for internal DataBricks users in other groups (data scientists, analysts, and engineers)\n  *  Created and ran presentations to encourage adoption\n  *  Provided ongoing support for users, troubleshooting specific data and notebook issues, writing Python notebooks to provide workarounds for some issues\n  *  Administered notebook clusters (users, cluster resources), managed libraries (public PyPi and custom Eggs)\n  *  Documented processes for users: backup for notebooks, data upload and access\n\nWith team, designed, investigated, and implemented new data platform components\n  *  Jenkins scripts using OpenShift commands to allow automatic build pipeline creation and trigger\n  *  Reviewed and implemented some AirFlow workflow scheduler plugins, configuration, and deployment\n\nManaged infrastructure, using OpenShift, a Kubernetes-based containerization platform\n  * Edited OpenShift object files, such as build configs, cron jobs, resource limits, and image streams\n  * Investigated issues such as jobs being killed or not scheduling",
+      "url": "https://www.linkedin.com/company/the-walt-disney-studios/",
+      "location": "Greater Los Angeles Area"
+    },
+    {
+      "name": "JW Player",
+      "position": "Data Engineer",
+      "startDate": "2014-10-31",
+      "endDate": "2017-07-31",
+      "highlights": [],
+      "summary": "* With two other team members, created the first data pipeline used for video recommendations, using Luigi, Numpy, Gensim Python libraries, among others\n* Optimized storm topology sink (real-time output) performance, reducing space utilization in real-time pipeline's target Mongo DB by 5X\n* Added new functionality into storm query engine code base, e.g. updating sets in Redis, and adding new topologies (real-time pipelines) for recommendations and publisher reports.\n* Maintained existing batch pipelines\n* * Updated versions of Hadoop and other libraries for compatibility\n* * Added monitoring and alerting using Nagios at first, and then Datadog (using statsd-like features)\n* * Added library functions for common tasks like launching a cluster or monitoring pipelines\n* * Made configuration and infrastructure changes to save money or handle larger data volume\n* Performed support/investigation of various issues, e.g. inconsistent or missing values, data population stalling or lagging behind, etc.\n* * Where needed, worked on fall-back or self-healing features (e.g. auto-restart)\n* Conducted various technical interviews, added interview questions, and trained other interviewers; helped with onboarding\n* Investigated new technologies and algorithms (e.g. approximation and statistical), attended conferences/talks, and managed five interns from Saxion University with another team member.\n* * Member of a deep learning club for neural nets, investigated using Cassandra, Dynamo DB, Redshift, and Kinesis\n* Created documentation, added unit and integration testing (for own functions and existing ones that lacked testing), and performed code reviews for over a dozen projects (repositories on GitHub).",
+      "url": "https://www.linkedin.com/company/jwplayer/",
+      "location": "Greater New York City Area"
+    },
+    {
+      "name": "AppNexus",
+      "position": "Software Engineer",
+      "startDate": "2013-03-31",
+      "endDate": "2014-06-30",
+      "highlights": [],
+      "summary": "I worked in the Data Team on data pipeline (largely Hadoop-based) processing and validation. Using a combination of Hive, Java, Vertica, PHP, Unix/Linux/HDFS commands, and MySQL, I\n* Worked on a Java web service that provides safer and more automated validation; configured and maintained validation jobs. \n* Worked as tech lead with UI, API, and Product teams to provide mobile app reporting to clients. \n* Combined billing aggregations to streamline the end-of-month invoice process for the billing team. \n* Migrated part of the pipeline to use protobuf, to save HDFS space. \n* Discovered, investigated, and worked with relevant owners to fix various bugs throughout the system. \n* Worked on entire development process, including requirements discussion, coding, reviewing, testing, deployment, job scheduling, and support. Much support was to troubleshoot MapReduce and PHP jobs with JobTracker interface and logs.",
+      "url": "https://www.linkedin.com/company/appnexus/"
+    },
+    {
+      "name": "Citigroup",
+      "position": "Software Engineer",
+      "startDate": "2010-07-31",
+      "endDate": "2013-02-28",
+      "highlights": [],
+      "summary": "(Continued to this full-time position from 2009 internship). \nI worked in the regulatory reporting group for order router and ECN products, within Citi Equities Technologies, to develop and maintain reports, data-related business processes, and a GUI application.\nI was responsible for development of the transactional billing system, reference data maintenance user interface, and various SEC/FINRA-mandated compliance reports. Per project, I coordinated requirements, development, and testing with ﬁnance, compliance, and other technology staff. \nAlso, as needed, to accommodate DBMS upgrades and hardware changes, I worked on system migrations, learning new systems and automating parallel testing.",
+      "url": "https://www.linkedin.com/company/citi/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "area": "Computer Science",
+      "studyType": "Bachelor's degree",
+      "startDate": "2006-12-31",
+      "endDate": "2010-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Vertica",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HBase",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OpenShift",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hive",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Agile Methodologies",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Distributed Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Perl",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache Kafka",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Tableau",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Equities",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Netezza",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "NumPy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Scala",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Trading Systems",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Testing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Terraform",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unix",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SDLC",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jenkins",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Apache Spark",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PHP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hadoop",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Applied Probability",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databricks",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
